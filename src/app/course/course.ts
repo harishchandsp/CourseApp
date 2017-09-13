@@ -1,4 +1,5 @@
 export interface Course{
-    name:string,
-    id:string
+    courseId:number,
+    courseName:string,
+    courseDescription:string
 }

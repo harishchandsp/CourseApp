@@ -1,14 +1,15 @@
 import { Component, OnInit } from '@angular/core';
+import { CourseService } from './course.service';
+import { Course } from './course';
 
 @Component({
-  selector: 'app-page',
+  selector: 'app-coursepage',
   template: `
-    <h1>Courses</h1>
     <router-outlet></router-outlet>
   `,
   styles: []
 })
-export class PageComponent implements OnInit {
+export class CoursePageComponent implements OnInit {
 
   constructor() { }
 
